@@ -1,0 +1,95 @@
+body {
+    /* todos los colores y fonts se jalan desde la web a la hora de abrirla */
+    color: indianred;
+    background-color: oldlace/* antiquewhite; */
+    /*font-family: Georgia;
+    font-size: large; */
+}
+
+.Header {
+    font-size: xx-large;
+    justify-content: center;
+    font-family:Georgia; /*Verdana, Geneva, Tahoma, sans-serif;*/
+    background-image: url(https://thewallcovering.co/cdn/shop/files/catsbeige_4cae8bbe-ce0b-4c69-bfad-afdf0badd424.jpg?v=1725968450&width=1346);
+    text-align: center;
+    border-style: dotted;
+    border-color: lightpink;
+    border-width: 30px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.Content {
+    font-family: groove;
+    font-size:x-large;
+    /* border-style: groove;
+    border-color: lightpink;
+    border-width: 10px; */
+    align-items: center;
+    text-align: center;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.seccion {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.imagSeccion {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.Footer {
+    font-style: italic;
+    text-align: center;
+}
+
+/* Aquí busqué como se podía hacer un 'catálogo' de imágenes para mostrar los gatitos*/
+.galeriaGatos {
+    display: flex;
+    flex-wrap: wrap; /* permite varias filas */
+    justify-content: center;
+    gap: 20px;
+}
+
+figure {
+    text-align: center;
+}
+        /* Encontre que se pueden hacer transiciones para zoom*/
+.fotoGato {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+.fotoGato:hover {
+    transform: scale(1.5);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+/* Para los botones */
+button {
+    background-color: pink;
+    color: indianred;
+    cursor: pointer;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+    border: 2px solid indianred;
+}
+
+.botones {
+    text-align: right;
+    max-width: 1300px;
+}
