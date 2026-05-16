@@ -113,7 +113,7 @@ class Game {
         
         // Sound
         this.ping = document.createElement("audio");
-        this.ping.src = "4387__noisecollector__pongblipe4.wav";
+        this.ping.src = "../resources/squeakyToy.wav";
         
         // Score labels
         this.scoreLabel = new TextLabel(canvasWidth-700, canvasHeight-20, "20px PT Mono", "lightcoral");
