@@ -1,0 +1,6 @@
+Instructions of the game:
+
+The character will have the rol of the ball that destroys the blocks, to play you must use 'a'
+and 'd' in your keybord to control the paddle and avoid that the character falls.
+You have 3 lives to complete each one of the 3 levels, and the speed of the ball will increase 
+in each level.
